@@ -1,0 +1,48 @@
+/* Removing default CSS */
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /* Adding common font-family for all document */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 90vh;
+}
+/* Styling progress bar Container */
+/* We add # for id */
+#progress_bar_container{
+    background-color: rgba(207,207,207,0.212);
+    border-radius: 26px;
+    height: 2.5rem;
+    width: 40rem;
+}
+/* Style progress bar */
+#progress_bar{
+    background-color: rgba(82,215,82);
+    border-radius: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 0%;
+}
+/* Lets add button also */
+#progress_bar_button{
+    border:none;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    height: 2.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    width: fit-content;
+}
